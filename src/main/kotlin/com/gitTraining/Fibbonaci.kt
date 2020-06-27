@@ -12,7 +12,6 @@ fun computeFibbonaciNumber(position: Int, recursion: Boolean = false): Int {
 
     if (position <= 2) return 1
 
-
     var currentPosition = 2
     while (currentPosition < position) {
         val temp = i
